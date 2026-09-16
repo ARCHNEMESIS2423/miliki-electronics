@@ -10,9 +10,3 @@ parameters:
         - database/
 
     level: 7
-
-    reportUnmatchedIgnoredErrors: false
-
-    ignoreErrors:
-        - message: 'Parameter #1 \$view of function view expects view-string\|null, string given\.'
-          path: '*/routes/*'
