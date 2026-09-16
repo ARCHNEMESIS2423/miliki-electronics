@@ -60,3 +60,4 @@ We don't choose products simply because they're expensive.
 * <img src="zreadmeResources/Vercel.svg" width="15"/> <b>VERCEL FOR LARAVEL</b> - vercel is a serverless hosting platform primarily for javascript based apps but can host laravel though its storage capability is ephermal, doesnt maintain or store data and files written or modified during runtime
 * <img src="zreadmeResources/supabase-logo-icon.svg" width="15"/> <b>SUPABASE FOR DATABASE</b> - laravel in vercel connects to supabase-postgres allowing us to persist data.
 * <img src="zreadmeResources/GitHub.svg" width="15"/> GitHub as platform to provide us versioning control through <img src="zreadmeResources/Git.svg" width="15"/> git actions <img src="zreadmeResources/GitHub Actions.svg" width="15"/> for our codebase
+* 📦 <b>mrokwor/laravel-lan Package</b> for local hosting during developments

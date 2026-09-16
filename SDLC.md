@@ -14,7 +14,7 @@ Because we don't believe premium means expensive. We believe premium means bette
 
 ## REQUIREMENTS
 ### FUNCTIONAL REQUIREMENTS <small>the specific functions/features the system must provide.</small>
-**Customers**
+#### **Customers**
 1. Customers should be able to create an account and log in to the website.
 2. Customers should be able to browse premium laptops, smartphones, and digital appliances.
 3. Customers should be able to search for products by name, brand, category, or other relevant information.
@@ -30,7 +30,7 @@ Because we don't believe premium means expensive. We believe premium means bette
 13. Customers should be able to view their previous orders and order status.
 14. Customers should be able to contact the business for inquiries or support.
 15. Customers should be able to leave reviews and ratings for products, where applicable.
-**Website Administrator / Business Owner**
+#### **Website Administrator / Business Owner**
 1. The administrator should be able to log in securely to an administration area.
 2. The administrator should be able to add, edit, and remove products.
 3. The administrator should be able to upload and manage product images.
@@ -43,7 +43,7 @@ Because we don't believe premium means expensive. We believe premium means bette
 10. The administrator should be able to view sales and product information through a dashboard.
 
 ### USER REQUIREMENTS <small>what users/business owners need the system to do, stated simply.</small>
-1. **User Registration and Authentication**
+#### 1. **User Registration and Authentication**
 The system shall:
 - Allow new customers to create accounts.
 - Allow registered customers to log in and log out.
@@ -51,7 +51,7 @@ The system shall:
 - Prevent duplicate accounts using the same email address where applicable.
 - Allow customers to reset forgotten passwords.
 - Provide appropriate authentication and authorization for administrators.
-2. **Product Management**
+#### 2. **Product Management**
 The system shall allow administrators to:
 - Add new products.
 - Edit existing products.
@@ -73,7 +73,7 @@ Display → 14"
 Price → TZS XXX
 Stock → X units
 
-3. **Product Browsing**
+#### 3. **Product Browsing**
 The system shall allow customers to:
 - View all available products.
 - Browse products by category.
@@ -82,7 +82,7 @@ The system shall allow customers to:
 - View new arrivals.
 - View products that are on promotion.
 - View individual product details.
-4. **Search and Filtering**
+#### 4. **Search and Filtering**
 The system shall provide product search functionality.
 Customers should be able to search using terms such as:
 "HP laptop"
@@ -99,7 +99,7 @@ The system should also allow filtering by relevant attributes such as:
 - Processor
 - Screen size
 - Availability
-5. **Product Comparison**
+#### 5. **Product Comparison**
 The system shall allow customers to select multiple compatible products and compare their:
 - Prices
 - Brands
@@ -107,7 +107,7 @@ The system shall allow customers to select multiple compatible products and comp
 - Features
 - Availability
 This is particularly valuable for your business because you're selling premium products where customers often need to justify the difference between models.
-6. **Shopping Cart**
+#### 6. **Shopping Cart**
 The system shall allow customers to:
 - Add products to the cart.
 - View cart contents.
@@ -117,12 +117,12 @@ The system shall allow customers to:
 - View applicable delivery charges.
 - View the total amount.
 The system shall prevent customers from ordering quantities greater than available stock.
-7. **Wishlist**
+#### 7. **Wishlist**
 The system shall allow registered customers to:
 - Add products to a wishlist.
 - Remove products from the wishlist.
 - Move wishlist products to the shopping cart.
-8. **Checkout**
+#### 8. **Checkout**
 The system shall allow customers to:
 - Review their cart.
 - Provide delivery information.
@@ -130,7 +130,7 @@ The system shall allow customers to:
 - Review the order.
 - Confirm the purchase.
 - Receive an order confirmation.
-9. **Payment**
+#### 9. **Payment**
 The system shall support one or more appropriate payment methods.
 Depending on how you launch the business, this could include:
 - Mobile money
@@ -138,7 +138,7 @@ Depending on how you launch the business, this could include:
 - Card payment
 - Cash on delivery, if offered
 The system should record the payment status associated with each order.
-10. **Order Management**
+#### 10. **Order Management**
 The system shall allow customers to:
 - View their orders.
 - View individual order details.
@@ -147,13 +147,13 @@ The administrator shall be able to update orders through statuses such as:
 Pending → Confirmed → Processing → Shipped → Delivered
 
 The system should retain the order history.
-11.**Customer Reviews**
+#### 11.**Customer Reviews**
 The system may allow customers who have purchased a product to:
 - Rate the product.
 - Write a review.
 - Edit or remove their review where appropriate.
 Administrators should be able to moderate inappropriate reviews.
-12. **Notifications**
+#### 12. **Notifications**
 The system should provide appropriate notifications for events such as:
 - Account registration
 - Successful order placement
@@ -161,7 +161,7 @@ The system should provide appropriate notifications for events such as:
 - Order status changes
 - Delivery updates
 These could initially be implemented through email and/or website notifications.
-13. **Customer Support**
+#### 13. **Customer Support**
 The website shall provide customers with a way to contact the business.
 For example:
 - Contact form
@@ -169,7 +169,7 @@ For example:
 - Phone number
 - WhatsApp
 - Frequently Asked Questions (FAQ)
-14. **Administrator Dashboard**
+#### 14. **Administrator Dashboard**
 The administrator dashboard shall provide information such as:
 - Total sales
 - Number of orders
@@ -182,14 +182,14 @@ The administrator dashboard shall provide information such as:
 
 
 ### NON-FUNCTIONAL REQUIREMENTS <small>how well, securely, reliably, and efficiently the system must operate.</small>
-. Performance
+#### 1. **Performance**
 - The website should load pages quickly under normal network conditions.
 - Product searches should return results within an acceptable time.
 - Images should be optimized to reduce unnecessary data usage.
 - The website should avoid unnecessary page reloads where practical.
 - The system should remain responsive when multiple customers are browsing simultaneously.
 This is particularly important for your target market because not every customer will have a fast or unlimited internet connection.
-2. **Security**
+#### 2. **Security**
 The system shall:
 - Use HTTPS to protect communication between users and the website.
 - Securely hash user passwords.
@@ -201,7 +201,7 @@ The system shall:
 - Secure uploaded product images/files.
 - Restrict administrative functionality to authorized users.
 - Avoid exposing sensitive customer or payment information.
-3. **Usability**
+#### 3. **Usability**
 The website should:
 - Have a simple and intuitive interface.
 - Make products easy to discover.
@@ -211,14 +211,14 @@ The website should:
 - Provide clear error and success messages.
 - Make prices and important product information easy to understand.
 The customer shouldn't have to fight the website to buy a laptop.
-4. **Responsiveness**
+#### 4. **Responsiveness**
 The website shall work correctly on:
 - Smartphones
 - Tablets
 - Laptops
 - Desktop computers
 The interface should automatically adapt to different screen sizes.
-5. **Accessibility**
+#### 5. **Accessibility**
 The website should:
 - Use readable typography.
 - Provide sufficient contrast between text and backgrounds.
@@ -226,14 +226,14 @@ The website should:
 - Support keyboard navigation where applicable.
 - Use meaningful labels for forms and buttons.
 - Avoid relying solely on color to communicate information.
-6. **Reliability**
+#### 6. **Reliability**
 The system should:
 - Remain available during normal operating hours.
 - Minimize unexpected downtime.
 - Prevent loss of customer orders.
 - Maintain accurate stock information.
 - Handle errors without crashing the entire website.
-7. **Scalability**
+#### 7. **Scalability**
 The system should be designed so that it can accommodate future growth, including:
 - More products
 - More customers
@@ -244,21 +244,21 @@ The system should be designed so that it can accommodate future growth, includin
 - Mobile applications
 - Additional administrators
 You don't need to build all of those now. The requirement is that the architecture should not make future expansion unnecessarily difficult.
-8. **Maintainability**
+#### 8. **Maintainability**
 The website should:
 - Use organized and readable source code.
 - Separate major system components appropriately.
 - Use a structured database.
 - Make it easy for administrators to update products without modifying source code.
 - Make future changes and bug fixes reasonably straightforward.
-9. **Compatibility**
+#### 9. **Compatibility**
 The website should function correctly on commonly used modern browsers such as:
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Edge
 - Safari
 It should also function across common Android and iOS mobile browsers.
-10. **Data Integrity**
+#### 10. **Data Integrity**
 The system should ensure that:
 - Product prices are stored accurately.
 - Stock quantities are updated correctly.
@@ -266,13 +266,13 @@ The system should ensure that:
 - Customer information is stored consistently.
 - Payment and order statuses remain synchronized.
 - Completed orders cannot be accidentally altered in ways that corrupt transaction records.
-11. **Backup and Recovery**
+#### 11. **Backup and Recovery**
 The system should have a mechanism for:
 - Regular database backups.
 - Recovery from database failure.
 - Recovery from accidental data deletion.
 - Restoration of the website after a major system failure.
-12. **SEO**
+#### 12. **SEO**
 Since this is an e-commerce business, the website should be designed to allow search engines to discover its products.
 It should support:
 - Search-engine-friendly URLs.
