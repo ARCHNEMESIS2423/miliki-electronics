@@ -10,3 +10,9 @@
   font-style: normal;
 }
 
+.button{
+  @apply p-2 rounded-2xl font-black text-white;
+}
+.error{
+  @apply text-red-600 font-medium;
+}

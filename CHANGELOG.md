@@ -8,8 +8,8 @@
 #### 1.1.2 [Administrator Requirements](./SDLC.md#website-administrator--business-owner)
 
 ### 1.2 Functional Requirements
-#### FR01 - User Registration
-#### FR02 - User Authentication
+#### FR01 - User Registration ✅
+#### FR02 - User Authentication & Authorization ✅
 #### FR01 - Product Management
 #### FR04 - Product Browsing
 #### FR05 - Product Search
@@ -50,10 +50,11 @@
 - ✅ acquired design for the database
 - ✅ set the tracking of development progress by creating git repository and this log file
 
-### DAY 2 SEPT 16
----
-- ⏳️ UI.Create a layouts for our APP 
-- ⏳️ Requirements.Allow and handle the user registration system
 
-### ⏳️
+### DAY 2 SEPT 18
+---
+- ✅ Requirements.Allow and handle the user registration|login system
+- ✅ Authorization created middlewares are on guard
+
+### DAY 3 SEPT __⏳️
 
