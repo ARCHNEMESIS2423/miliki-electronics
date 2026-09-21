@@ -31,6 +31,9 @@ new class extends Component
 ?>
 
 <div x-data="{ show: false, showConfirm: false }">
+  <div class="bg-amber-50 p-3 rounded-2xl w-fit mx-auto">
+    @include('partials.brand')
+  </div>
   <form method="POST" class="max-w-sm mx-auto p-6 space-y-4" wire:submit='register'>
     @csrf
     <span wire:model='registration_error'></span>

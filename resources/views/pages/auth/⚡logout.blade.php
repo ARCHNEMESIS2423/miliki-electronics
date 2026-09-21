@@ -23,8 +23,8 @@ new class extends Component
     <form method="POST" wire:submit='logout'>
         @csrf
 
-        <flux:button type="submit" variant="danger" class="font-bold text-white">
-            Logout
+        <flux:button type="submit" variant="danger" class="font-bold text-white cursor-pointer" alt="Log out" title="Log out">
+            Log out
         </flux:button>
     </form>
 </div>

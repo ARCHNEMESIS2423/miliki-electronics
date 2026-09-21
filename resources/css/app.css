@@ -2,7 +2,7 @@
 @import '../../vendor/livewire/flux/dist/flux.css';
 @custom-variant dark (&:where(.dark, .dark *));
 
-
+[x-cloak] { display: none !important; }
 @font-face {
   font-family: 'Manrope';
   src: url('/public/displays/fonts/Manrope-VariableFont_wght.ttf') format('truetype');
@@ -16,3 +16,36 @@
 .error{
   @apply text-red-600 font-medium;
 }
+
+/* 
+============SCROLLBAR CSS==============================================
+*/
+@layer utilities {
+  /* For Webkit browsers (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar {
+    width: 6px;  /* Makes the vertical scrollbar thin */
+    height: 6px; /* Makes the horizontal scrollbar thin */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Makes the track invisible */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #eab308; /* Tailwind's yellow-500 / Gold */
+    border-radius: 9999px;    /* Makes the thumb rounded */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ca8a04; /* Tailwind's yellow-600 / Darker Gold on hover */
+  }
+
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #eab308 transparent;
+  }
+}
+/* 
+================================================================
+*/

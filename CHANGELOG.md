@@ -56,5 +56,12 @@
 - ✅ Requirements.Allow and handle the user registration|login system
 - ✅ Authorization created middlewares are on guard
 
+### DAY 3 SEPT 21
+---
+- ✅ Full product crud management for admins
+- ✅ Admin and customer separated by auth
+- ✅ Perfect view of products on the home page
+
+
 ### DAY 3 SEPT __⏳️
 
